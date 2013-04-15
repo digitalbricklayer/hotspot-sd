@@ -1,4 +1,4 @@
 hotspot-sd
 ==========
 
-Hotspot Windows Sidebar Widget
+Hotspot Windows Sidebar Widget.
