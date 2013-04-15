@@ -1,0 +1,62 @@
+﻿/* CSS Document */
+body {
+	font-family: 'Segoe UI', Tahoma;
+    font-size: 11px;
+	height: 174px;
+	width: 130px;
+	margin: 0px 0px 0px;
+	border: none;
+}
+#content {
+	position: absolute; 
+	left: 10px; 
+	top: 15px; 
+	width: 110px; 
+	height: 110px; 
+	z-index: 1;
+	overflow: hidden;
+}
+h1, h1 a, h1 a:visited {
+	font-size: 13px;
+	color: #1e75cb;
+	border-bottom: 1px solid #1e75cb;
+	margin:2px;
+}
+a {
+	border: none;
+}
+img {
+	border: none;
+}
+#header {
+	visibility: visible;
+	text-align: left;
+	z-index: 99;
+	width: 90%;
+	font-size: 11px;
+}
+.probe {
+	position: relative;
+	width: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+	height: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 11px;
+}
+.probe:hover {
+	cursor: hand;
+}
+#navHolder {
+	position: absolute;
+	top: 125px;
+	left: 25px;
+}
+#navHolder #probeNumbers, #navHolder a, #navHolder a:visited{
+	color:white;
+	font-size:11px;
+}
+#navHolder a, #navHolder a:hover, h1 a, h1 a:hover{
+	text-decoration: none;
+}

@@ -1,0 +1,23 @@
+﻿body
+{
+	font-family: 'Segoe UI', Tahoma;
+    font-size: 11px;
+	width:250px;
+	height:250px;
+	margin:0px;
+	padding:0px;
+}
+h1 {
+	margin:0;
+    padding:0;
+	color:#1e75cb;
+	font-size: 14px;
+	border-bottom: 1px solid #1e75cb;
+}
+#content {
+	border:solid 0px #999999; border-top:none;
+    background-color:#ffffff;
+	padding:5px 5px 0px 10px;
+	position:relative;
+	overflow:hidden;
+}

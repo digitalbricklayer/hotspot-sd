@@ -1,0 +1,36 @@
+body {
+	font-family: 'Segoe UI', Tahoma;
+    font-size: 11px;
+    margin: 0;
+    padding:0;
+    width: 275px;
+    height: 240px;
+    cursor:default;
+    background-color:#ffffff;
+    overflow:hidden;
+}
+a {
+	color:#0066cc;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+h1 {
+	margin:0;
+    padding:0;
+	color: #1e75cb;
+	border-bottom: 1px solid #1e75cb;
+	font-size: 14px;
+}
+#content {
+	border:solid 0px #999999; border-top:none;
+    background-color:#ffffff;
+	padding:5px 5px 0px 10px;
+	position:relative;
+	overflow:hidden;
+	height:220px;
+}
+#links {
+	text-align: center;
+}

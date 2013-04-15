@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>HotSpot</name>
+  <namespace>HotSpot.Gadgets</namespace>
+  <version>1.1</version>
+  <author name="OPENXTRA Ltd.">
+    <logo src="images/logo.png" />
+    <info url="http://www.openxtra.co.uk" />
+  </author>
+  <copyright>
+    Copyright&#169; 2007 OPENXTRA Ltd.
+  </copyright>
+  <description>Your server room/rack environment readings on your windows vista sidebar.</description>
+  <icons>
+    <icon width="70" height="80" src="images/icon.png" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="HotSpot.html" />
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0" />
+      <defaultImage src="images/dragIcon.png"/>
+    </host>
+  </hosts>
+</gadget>
